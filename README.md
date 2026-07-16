@@ -1,10 +1,10 @@
-# 📩 SMS Spam Detection using LSTM
+# SMS Spam Detection using LSTM
 
 A machine learning web application that classifies SMS messages as **Spam** or **Ham (Not Spam)** using a Long Short-Term Memory (LSTM) neural network. The project features a trained deep learning model with a simple and interactive web interface.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Detects whether an SMS is Spam or Ham
 - Built using an LSTM neural network
