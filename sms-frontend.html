@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>SMS Spam Detection</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>SMS Spam Detection</h1>
+
+        <p>
+            Enter an SMS message below to detect whether it is
+            <strong>Spam</strong> or <strong>Ham</strong>.
+        </p>
+
+        <textarea
+            id="message"
+            placeholder="Type your SMS here..."></textarea>
+
+        <button onclick="detectSpam()">
+
+            Detect SMS
+
+        </button>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="/script.js"></script>
+
+</body>
+
+</html>
